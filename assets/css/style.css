@@ -1,0 +1,134 @@
+@font-face {
+  font-family: MiFontLight;
+  src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: MiFontMid;
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  background-color: black;
+
+  /*  Dejé un borde blanco en los lados solo para representar el ancho de 1280 px que aparece en la plantilla.*/
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 7px 0;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: MiFontMid;
+}
+.imagenHero {
+  width: 1280px;
+  height: 727px;
+}
+
+section {
+  color: white;
+}
+.hero {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -5px;
+}
+
+p {
+  font-weight: 300;
+  font-family: MiFontLight;
+}
+
+.imagenDescripcion {
+  width: 399px;
+  height: 237px;
+  justify-self: center;
+  padding: 45px 0;
+  /*  border: 5px solid rgb(255, 0, 0); */
+}
+.texto {
+  /*  border: 5px solid red; */
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 75px;
+  font-size: 40px;
+  font-family: MiFontMid;
+  font-weight: 400;
+}
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1a13;
+}
+
+.contenidoCar {
+  display: flex;
+  justify-content: center;
+  height: 176px;
+  padding-top: 50px;
+  gap: 150px;
+}
+
+i {
+  font-size: 50px;
+}
+
+.tarjeta {
+  text-align: center;
+  font-family: MiFontLight;
+  width: 207px;
+}
+
+.tarjeta p {
+  font-size: 25px;
+  padding: 25px 0;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: black;
+  margin: 73px 0;
+}
+
+.fotoGaleria {
+  width: 316px;
+  height: 202px;
+}
+
+footer {
+  height: 102px;
+  background-color: #1e1a13;
+}
+
+.web {
+  color: white;
+  text-align: center;
+  padding-top: 39px;
+  font-family: MiFontLight;
+}
